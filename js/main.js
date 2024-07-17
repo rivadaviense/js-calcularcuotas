@@ -47,11 +47,13 @@ let cuotas;
 function calcularcuotas (precio, tarjeta, cuotas){
     switch (cuotas){
         case "1":
-        return precio / 3;
+          return precio / 3;
         case "2":
-        return precio / 6;
+          return precio / 6;
         case "3":
-        return precio / 12;
+          return precio / 12;
+        default:
+          return ("ingreso de cuotas no válidas")
         
     }
 
