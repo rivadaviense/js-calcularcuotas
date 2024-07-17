@@ -3,8 +3,8 @@ let precio = 0;
 while (true) {
     precio = parseFloat(prompt("Ingrese el valor del producto"));
 
-    if (precio >= 0 && !isNaN(precio)) {
-        break; o
+    if (precio > 0 && !isNaN(precio)) {
+        break; 
     } else {
         alert("Ingrese un valor mayor a 0");
     }
