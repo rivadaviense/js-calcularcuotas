@@ -11,7 +11,6 @@ while (true) {
 }
 
     
-
 let tarjeta;
     while (true) {
     tarjeta = prompt(`
